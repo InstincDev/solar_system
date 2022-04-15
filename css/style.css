@@ -1,0 +1,98 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html,body{
+  font-size: 62.5%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background: lightgreen;
+  color: black;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 2rem;
+   border: .7rem solid lightblue;
+   border-radius: 2rem;
+   box-shadow: .5rem .7rem #4433ff33;
+  background: #fff;
+}
+
+h1, h2{
+  font-size: 3rem;
+}
+
+
+p, h3{
+  font-size: 2rem;
+}
+h3{
+  overflow-wrap: break-word;
+}
+
+p{
+  margin: .5rem;
+}
+
+
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 1rem 1.5rem 1.5rem;
+  padding: 0;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+  padding: 0 1rem 0; 
+  border: .5rem solid lightblue;
+  border-radius: 2rem;
+  box-shadow: .5rem .7rem #4433ff33 ;
+  background-color: white;
+}
+
+img{
+ width: 100%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.btn{
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: lightblue;
+}
+
+.hidden{
+  display : none;
+}
